@@ -1,24 +1,44 @@
-# Logs
-logs
+# Node modules
+node_modules/
+
+# Build output
+/dist
+/.vite
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Log files
 *.log
+
+# Editor directories and files
+.vscode/
+.idea/
+
+# Dependency directories
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# .env files
+.env
+.env.local
+.env.*.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# TypeScript
+*.tsbuildinfo
+
+# Mac OS
+*.swp
+
+# Vite-specific
+.vite/
+
+# React Native Debugging files
+react-native-debugger.txt
+
+# Other temporary files
+*.bak
+*.swp
+*.swo
